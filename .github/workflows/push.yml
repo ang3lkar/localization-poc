@@ -21,7 +21,7 @@ jobs:
           GITHUB_PREVIOUS_COMMIT: ${{ github.event.after }}
           GITHUB_CURRENT_COMMIT: ${{ github.event.before }}
           VAR_LOKALISE_API_TOKEN: ${{ secrets.LOKALISE_API_TOKEN }}
-          VAR_LOKALISE_PROJECT_ID: ${{ vars.LOKALISE_PROJECT_ID }}
+          VAR_LOKALISE_PROJECT_ID: ${{ vars.LOCALISE_PROJECT_ID }}
           ENV_LOKALISE_SOURCE_LANG_ISO: en
         run: |
              while read file
