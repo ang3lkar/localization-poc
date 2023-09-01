@@ -1,5 +1,6 @@
 {
   "intro": "Hello there",
   "body": "This constitues the main text body",
-  "footer": "Written by Localise"
+  "footer": "Written by Localise",
+  "copyright": "By @angelkar"
 }
