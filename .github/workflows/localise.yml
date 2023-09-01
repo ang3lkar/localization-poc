@@ -4,7 +4,8 @@ on:
   pull_request:
     branches:
       - main
-
+    paths:
+      - "locales/en/*.json"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,7 +19,7 @@ jobs:
         env:
           GITHUB_PREVIOUS_COMMIT: ${{ github.event.after }}
           GITHUB_CURRENT_COMMIT: ${{ github.event.before }}
-          VAR_LOKALISE_API_TOKEN: ${{ secrets.API_TOKEN }}
+          VAR_LOKALISE_API_TOKEN: ${{ secrets.LOKALISE_API_TOKEN }}
           VAR_LOKALISE_PROJECT_ID: ${{ vars.LOCALISE_PROJECT_ID }}
           ENV_LOKALISE_SOURCE_LANG_ISO: en
         run: |
@@ -31,7 +32,7 @@ jobs:
           done < <(
           if [ -z ${{ env.GITHUB_CURRENT_COMMIT }} ]
           then
-           git ls-files -- '**${{ env.ENV_LOKALISE_SOURCE_LANG_ISO }}.json'
+           git ls-files -- 'locales/${{ env.ENV_LOKALISE_SOURCE_LANG_ISO }}/*.json'
           else
-           git diff --name-only ${{ env.GITHUB_PREVIOUS_COMMIT }} ${{ env.GITHUB_CURRENT_COMMIT }} -- '**${{ env.ENV_LOKALISE_SOURCE_LANG_ISO }}.json'
+           git diff --name-only ${{ env.GITHUB_PREVIOUS_COMMIT }} ${{ env.GITHUB_CURRENT_COMMIT }} -- 'locales/${{ env.ENV_LOKALISE_SOURCE_LANG_ISO }}/*.json'
           fi | awk NF)
