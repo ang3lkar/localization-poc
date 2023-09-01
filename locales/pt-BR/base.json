@@ -1,0 +1,10 @@
+{
+    "welcome_message": "Seja bem-vindo!",
+    "intro": "Olá {{name}}!",
+    "body": {
+        "p1": "Este é um parágrafo, {{name}}, por un variablo",
+        "p2": "Este é outro parágrafo."
+    },
+    "footer": "Escrito por Lokalise",
+    "copyright": "Por @angelkar"
+}
