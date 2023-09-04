@@ -24,6 +24,6 @@ const user = {
   // Unsupported language fallbacks to en-US
   const t2 = setT('en-GB', 'template1');
 
-  console.log("\n--en-US--");
+  console.log("\n--en-GB--");
   console.log(t2('foo.welcomeNote'));
 })();

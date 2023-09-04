@@ -1,5 +1,6 @@
 {
   "foo": {
-    "welcomeNote": "Welcome to my humble abode"
+    "welcomeNote": "Welcome to my humble abode",
+    "someText": "This should be translated automatically"
   }
 }
