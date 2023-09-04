@@ -1,10 +1,10 @@
 {
-  "welcome_message": "Welcome!",
   "intro": "Hello there {{name}}!",
   "body": {
     "p1": "This is a paragraph, {{name}}, with a variable",
     "p2": "This is another paragraph"
   },
   "footer": "Written by Lokalise",
-  "copyright": "By @angelkar"
+  "copyright": "By @angelkar",
+  "anotherOne": "Another one"
 }
