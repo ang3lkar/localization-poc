@@ -5,5 +5,5 @@
     "p1": "Este é um parágrafo, {{name}}, com uma variável",
     "p2": "Este é outro parágrafo"
   },
-  "footer": "Distribuído por Blueground"
+  "footer": "Desenvolvido por Blueground"
 }
