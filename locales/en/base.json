@@ -1,5 +1,6 @@
 {
   "intro": "Hello there {{name}}!",
+  "welcome": "Welcome to Blueground!",
   "body": {
     "p1": "This is a paragraph, {{name}}, with a variable",
     "p2": "This is another paragraph"
