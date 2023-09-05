@@ -1,0 +1,8 @@
+{
+  "intro": "Olá {{0}}!",
+  "body": {
+    "p1": "Este é um parágrafo, {{0}}, com uma variável",
+    "p2": "Este é outro parágrafo"
+  },
+  "footer": "Distribuído por Blueground"
+}

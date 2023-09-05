@@ -1,6 +1,6 @@
 {
   "followUpPayment": {
     "welcomeNote": "Welcome to your humble abode!",
-    "body": "But first, you have a follow up payment of {0} due on {1}."
+    "body": "But first, you have a follow up payment of {{0}} due on {{1}}."
   }
 }
