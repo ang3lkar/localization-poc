@@ -1,7 +1,0 @@
-{
-  "foo": {
-    "welcomeNote": "Welcome to my humble abode",
-    "someText": "This should be translated automatically",
-    "someTextWithParams": "This should be translated automatically with params: {0} and {1}"
-  }
-}

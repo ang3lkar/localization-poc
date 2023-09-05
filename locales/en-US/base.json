@@ -4,7 +4,5 @@
     "p1": "This is a paragraph, {{name}}, with a variable",
     "p2": "This is another paragraph"
   },
-  "footer": "Written by Lokalise",
-  "copyright": "By @angelkar",
-  "anotherOne": "Another one"
+  "footer": "Powered by Blueground"
 }
