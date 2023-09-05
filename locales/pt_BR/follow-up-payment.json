@@ -1,0 +1,6 @@
+{
+    "followUpPayment": {
+        "welcomeNote": "Bem-vindo à sua humilde morada!",
+        "body": "Mas, primeiro, você tem um pagamento de acompanhamento de %1$s com vencimento em %2$s."
+    }
+}

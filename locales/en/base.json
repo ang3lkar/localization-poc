@@ -1,8 +1,8 @@
 {
-  "intro": "Hello there {{name}}!",
-  "body": {
-    "p1": "This is a paragraph, {{name}}, with a variable",
-    "p2": "This is another paragraph"
-  },
-  "footer": "Powered by Blueground"
+    "intro": "Hello there %1$s!",
+    "body": {
+        "p1": "This is a paragraph, %1$s, with a variable",
+        "p2": "This is another paragraph"
+    },
+    "footer": "Powered by Blueground"
 }
