@@ -17,7 +17,7 @@ jobs:
       - name: Pull
         env:
           VAR_LOKALISE_API_TOKEN: ${{ secrets.LOKALISE_API_TOKEN }}
-          VAR_LOKALISE_PROJECT_ID: ${{ vars.LOCALISE_PROJECT_ID }}
+          VAR_LOKALISE_PROJECT_ID: ${{ vars.LOKALISE_PROJECT_ID }}
         run: |
              ./bin/lokalise2 --token ${{ env.VAR_LOKALISE_API_TOKEN }} --project-id ${{ env.VAR_LOKALISE_PROJECT_ID }} file download --format json --filter-langs=pt --original-filenames=true --directory-prefix=/
       - name: Commit
