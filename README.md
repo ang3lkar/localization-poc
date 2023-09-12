@@ -4,7 +4,7 @@ This is just a PoC project to test the integration with [lokalise](https://app.l
 
 ## Integration steps
 
-The flow uses a Github action defined on `.github/lokalise.yml`
+The flow uses a Github action defined on `.github/workflows/localise.yml` (yes, typo here 😎)
 
 1. Checkout a new branch
 2. Add/update some keys on `locales/en/*.json` (`en` is the base language)
