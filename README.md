@@ -17,5 +17,9 @@ The flow uses a Github action defined on `.github/workflows/localise.yml` (yes, 
 ## Check translations
 
 ```sh
+npm install
+```
+
+```sh
 node index.js
 ```
