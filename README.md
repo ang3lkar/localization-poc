@@ -23,3 +23,13 @@ npm install
 ```sh
 node index.js
 ```
+
+## Flows
+
+### Phase 1
+<img width="883" alt="Screenshot 2023-09-12 at 5 43 26 PM" src="https://github.com/ang3lkar/localization-poc/assets/4025957/a76cc069-b3f7-432b-ae33-6e9649f6e6e5">
+
+
+### Phase 2
+<img width="908" alt="Screenshot 2023-09-12 at 5 41 33 PM" src="https://github.com/ang3lkar/localization-poc/assets/4025957/e81ffda0-1d42-4d7d-9208-dc0a1820583b">
+
