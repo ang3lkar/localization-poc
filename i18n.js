@@ -42,6 +42,16 @@ export function setLanguage(lng = BASE_LANGUAGE) {
   return languages[lng] || languages[BASE_LANGUAGE];
 }
 
+/**
+ * Pick a locale and a namespace to load translations from.
+ * Why input a namespace? This approach enables us to use
+ * the same keys between templates. Only 'base' serves
+ * as a fallback to globally agreed keys.
+ *
+ * @param {*} locale
+ * @param {*} namespace
+ * @returns
+ */
 export function setT(locale, namespace) {
   const t = setLanguage(locale);
 

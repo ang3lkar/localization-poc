@@ -11,17 +11,16 @@ const user = {
 
   const t = setT(user.locale, 'follow-up-payment');
 
-  // finds a key and loads translation from followUpPayment namespace
+  // 1. happy path: finds a key and loads translation from 'followUpPayment' namespace
   console.log(t('welcomeNote'));
 
-  // fallback, if key does not exist in namespace, we load from base
+  // 2. fallback case: if key does not exist in namespace, we load from 'base' namespace
   console.log(t('body.p1', {name: 'Soul Hitman'}));
 
-  // key does not exist, renders just the key => 'foo.bar'
+  // 3. no translation case: renders just the key => 'foo.bar'
   console.log(t('foo.bar'));
 
-
-  // Unsupported language fallbacks to 'en'
+  // 4. Unsupported language: fallbacks to 'en'
   const t2 = setT('en-GB', 'follow-up-payment');
 
   console.log("\n--en-GB--");
